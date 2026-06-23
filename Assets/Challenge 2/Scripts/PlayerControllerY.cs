@@ -5,6 +5,7 @@ public class PlayerControllerY : MonoBehaviour
 {
     public GameObject dogPrefab;
     public InputAction fireAction;
+    //public int health = 5.0f; 
 
     // Start is called before the first frame update
     void Start()
