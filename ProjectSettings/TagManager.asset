@@ -12,6 +12,7 @@ TagManager:
   - Powerup
   - Enemy
   - DestroyZone
+  - Player Goal
   layers:
   - Default
   - TransparentFX
