@@ -187,7 +187,9 @@ MonoBehaviour:
     m_Flags: 0
   moveInput: {x: 0, y: 0}
   speed: 10
-  xRange: 20
+  xRange: 16
+  zRange: 16
+  zMin: -1
   projectilePrefab: {fileID: 4737555679863232027, guid: 11d6c3035be509c46bf46999066f422e, type: 3}
   fireAction:
     m_Name: Fire
@@ -712,7 +714,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400046, guid: 3cf7f489270aac84fb12901330960a5b, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.1136
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400046, guid: 3cf7f489270aac84fb12901330960a5b, type: 3}
       propertyPath: m_LocalPosition.y
@@ -720,7 +722,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400046, guid: 3cf7f489270aac84fb12901330960a5b, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400046, guid: 3cf7f489270aac84fb12901330960a5b, type: 3}
       propertyPath: m_LocalRotation.w
